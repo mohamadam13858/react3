@@ -15,8 +15,10 @@ body{
     width: 100%;
     height: 100%;
     background: rgb(9, 185, 104);
-    background: linear-gradient(90deg , rgb(7, 190 ,105)0% 
-    hsla(186, 100%, 69%, 1) 100%);
+    background: linear-gradient(90deg , rgb(7, 190 ,105)0% ,
+    hsla(186,100%,69%,1)100%);
+    background: -moz-linear-gradient(90deg, rgb(7, 190, 105) 0%,
+    hsla(186,100%,69%,1)100%);
 }
 *{
     font-family: BYekan;
@@ -29,10 +31,13 @@ body{
 .transition_200{
     transition: all 200ms ease;
 }
-.text_hover_shadow:haver{
+.text_hover_shadow:hover{
     text-shadow: 0 0 3px black;
 
 }
 .h_fit{
     height: fit-content;
+}
+.text_shadow{
+    text-shadow:0 0 0 20 rgb(12, 130, 145);
 }

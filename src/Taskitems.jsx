@@ -28,10 +28,9 @@ const TaskItems = () => {
                             {t.title}
                             <span>
                                 {
-                                    <i className={`me-3 pointer fas
-                                     fa-times text-warning
+                                    <i className={`me-3 pointer
                                      transition_200
-                                     text_hover_shadow ${t.done ? "fas fa-times" : "fas fa-check"}`}
+                                     text_hover_shadow ${t.done ? "fas fa-times text-warning" : "fas fa-check text-success"}`}
                                         onClick={() => handleSetDoneTask(t.id)}></i>
                                 }
                                 <i className="me-3 pointer fas

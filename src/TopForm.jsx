@@ -17,9 +17,9 @@ const TopForm = () => {
 
     return (
         <>
-            <h4 className="text-center text-info text-shadow">خوش امدید</h4>
+            <h4 className="text-center text-info text_shadow">خوش امدید</h4>
             <form onSubmit={handleAddTask}>
-                <div className="form-guoup d-flex">
+                <div className="form-group d-flex">
                     <input type="text" className="form-control" value={task}
                         onChange={handleSetTask} />
                     <button type="submit" className="btn btn-success">ثبت</button>
